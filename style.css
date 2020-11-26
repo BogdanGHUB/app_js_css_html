@@ -2,8 +2,8 @@ body
 {
 	margin: 0px;
 	padding: 0px;
-	background-color: black;
 	font-family: 'Montserrat', sans-serif;
+	background-color: black;
 }
 
 /*РАБОТА С КЛАССАМИ ТЕКСТА И КНОПКИ*/
@@ -12,7 +12,7 @@ body
 {
 	margin-top: 350px;
 	text-align: center;
-	font-size: 55px;
+	font-size: 50px;
 }
 
 #text
