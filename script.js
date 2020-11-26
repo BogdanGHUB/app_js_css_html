@@ -1,9 +1,4 @@
-function init()
-{
-
-	var text = function makePhrases()
-	{
- 		var words = [
+		var quotes = [
  		"Стажировка",
  		"Q-Digital",
  		"Выполнил Богдан Поприк",
@@ -14,17 +9,11 @@ function init()
  		"HTML",
  		"Познал GitHub",
  		"Залил на GitHub"
- 		];
+ 		]
 
- 		var rand = Math.floor(Math.random() * words.length);
- 		var phrase = words[rand] + "" + "!";
- 		return phrase;
-	}
-
-	document.getElementById('generate_text_bg').onclick = function()
-	{
-		document.getElementById('text').innerHTML = text();
-	};
-
+function newQuote()
+{
+	var randomNumber = Math.floor(Math.random()*(quotes.length));
+	document.getElementById('text').innerHTML = quotes[randomNumber];
 }
-window.onload = init;
+
