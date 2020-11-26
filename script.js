@@ -23,14 +23,15 @@ var color = [
  	"color3",
  	"color4",
  	"color5",
- 	"color6",
- 	"color7",
- 	"color8",
+ 	"color6"
  ]
- 
+
 function colorbg()
 {
 	var randomcolor = Math.floor(Math.random()*(color.length));
 	document.getElementById('wrapper').className = color[randomcolor];
 }
+
+
+
 

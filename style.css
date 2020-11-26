@@ -61,39 +61,35 @@ body
 .color1
 {
 	background-color: black;
+	color: white;
 }
 
 .color2
 {
 	background-color: white;
+	color: black;
 }
 
 .color3
 {
 	background-color: red;
+	color: white;
 }
 
 .color4
 {
 	background-color: green;
+	color: black;
 }
 
 .color5
 {
 	background-color: yellow;
+	color: black;
 }
 
 .color6
 {
 	background-color: blue;
-}
-
-.color7
-{
-	background-color: grey;
-}
-
-.color8
-{
-	background-color: purple;
+	color: white;
 }
