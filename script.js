@@ -1,3 +1,5 @@
+//ГЕНЕРАТОР РАНДОМНОЙ НАДПИСИ
+
 var quotes = [
  	"Стажировка.",
  	"Q-Digital.",
@@ -16,6 +18,8 @@ var quotes = [
 	var randomNumber = Math.floor(Math.random()*(quotes.length));
 	document.getElementById('text').innerHTML = quotes[randomNumber];
 }
+
+//ГЕНЕРАТОР РАНДОМНОГО ЦВЕТА ФОНА
 
 var color = [
  	"color1",
