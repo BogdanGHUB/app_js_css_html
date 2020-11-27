@@ -19,7 +19,7 @@ var text = [
 	document.getElementById('text').innerHTML = text[randomNumber];
 }
 
-//Рандомный цвет фона и текста
+//Рандомный цвет фона
 
 var color = [
  	"color1",
@@ -36,6 +36,4 @@ function colorbg()
 	document.getElementById('wrapper').className = color[randomcolor];
 }
 
-// Очистить текст
-
-
+// Очистить
