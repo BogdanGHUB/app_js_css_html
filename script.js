@@ -1,6 +1,6 @@
-//ГЕНЕРАТОР РАНДОМНОЙ НАДПИСИ
+//Рандомный текст
 
-var quotes = [
+var text = [
  	"Стажировка.",
  	"Q-Digital.",
  	"Выполнил Богдан Поприк.",
@@ -13,13 +13,13 @@ var quotes = [
  	"Залил на GitHub."
  ]
 
-	function newQuote()
+	function randomText()
 {
-	var randomNumber = Math.floor(Math.random()*(quotes.length));
-	document.getElementById('text').innerHTML = quotes[randomNumber];
+	var randomNumber = Math.floor(Math.random()*(text.length));
+	document.getElementById('text').innerHTML = text[randomNumber];
 }
 
-//ГЕНЕРАТОР РАНДОМНОГО ЦВЕТА ФОНА
+//Рандомный цвет фона и текста
 
 var color = [
  	"color1",
@@ -36,6 +36,6 @@ function colorbg()
 	document.getElementById('wrapper').className = color[randomcolor];
 }
 
-
+// Очистить текст
 
 
