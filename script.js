@@ -37,3 +37,6 @@ function colorbg()
 }
 
 // Очистить
+
+let sideBar = document.getElementById('one');
+sideBar.classList.remove('display');
