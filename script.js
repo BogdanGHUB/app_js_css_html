@@ -36,7 +36,12 @@ function colorbg()
 	document.getElementById('wrapper').className = color[randomcolor];
 }
 
-// Очистить
+// Очистить текст (получилось не так как нужно по заданию)
 
-let sideBar = document.getElementById('one');
-sideBar.classList.remove('display');
+	function reset()
+{	
+	let paragraph = document.getElementById('text');
+	paragraph.textContent = '';
+}
+
+// Очистить фон не получилось

@@ -12,11 +12,19 @@ body
 .wrapper
 {
 	margin: auto;
-	height: 1920;
+	height: 1920px;
 	width: 100%;
 	background-color: black;
 }
 
+.bg
+{
+	background-color: black;
+	height: 288px;
+	width: 700px;
+	text-align: center;
+	margin-left: 600px; 
+}
 
 .random
 {
@@ -61,7 +69,13 @@ body
 	font-family: 'Montserrat', sans-serif;
 }
 
-/*КЛАССЫ ЦВЕТА ФОНА СТРАНИЦЫ И ТЕКСТА*/
+div 
+{ 
+	border-radius: 100px 100px 100px; 
+}
+
+
+/*СТИЛИ ЦВЕТА ФОНА СТРАНИЦЫ И ТЕКСТА*/
 
 .color1
 {
@@ -84,7 +98,7 @@ body
 .color4
 {
 	background-color: green;
-	color: black;
+	color: white;
 }
 
 .color5
